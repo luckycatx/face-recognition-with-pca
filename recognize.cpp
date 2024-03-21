@@ -134,7 +134,7 @@ void FileRecognition(std::string_view test_path, std::string_view eigens_path,
   }
   std::cout << std::format(
       "A total of {} images are tested, {} recognitions are hit\n"
-      "Hit rate: {}\n",
+      "Hit rate: {}%\n",
       n, hit, static_cast<float>(hit) / n * 100.f);
 }
 
